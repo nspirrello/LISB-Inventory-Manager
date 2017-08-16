@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2017, 9:30:56 PM
+    Author     : Zach Pirrello
+*/
+/*
+    #5F823A medium green
+    #64903E light green
+    #2A4202 dark green
+    #F4ECBE  yellowy green
+*/
+.root {
+    -fx-background-color: "#5F823A";
+}
+.editPane {
+    -fx-background-image: url("./images/welcome-text-bg.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+.borderPaneMain {
+    /*-fx-background-color: "#64903E";*/
+    -fx-background-color: "#5F823A";
+}
+.borderPaneBottom {
+    
+    -fx-background-color: "#5F823A";
+}
+.button {
+    /*-fx-color: "#F4ECBE";*/
+    -fx-color: "#2A4202";
+    -fx-text-fill: "#F4ECBE";
+    -fx-focus-color: transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-shadow-highlight-color: transparent;
+  
+}
+
+.table-view:focused {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: "#2A4202";
+}
+.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: "#F4ECBE";
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-text-fill: "#2A4204";
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #F4ECBE;
+    
+}
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #F0E4A4;
+    
+}
